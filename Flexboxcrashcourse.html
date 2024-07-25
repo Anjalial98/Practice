@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta charset="UTF-8"/>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Flexbox Crash Course</title>
+   </head>
+   <style>
+    body{
+        font-family:'popins',sans-serif;
+        font-size:16px;
+        line-height:1.5;
+        color:blueviolet;
+        background: rgb(225, 225, 230);
+    }
+    img{
+        max-width:100%;
+    }
+    ul{
+        list-style-type: none;
+    }
+    h1,h2{
+        margin-bottom: 15px;
+    }
+    .container{
+        max-width: 1100px;
+        margin:0 auto;
+        padding:0 30px;
+    }
+    .navbar{
+        background:burlywood;
+        color:aqua;
+        height:60px;
+    }
+    .navbar.logo{
+        font-size:x-large;
+        align-items: center;
+        font-weight: bold;
+    }
+    .navbar a{
+        color:antiquewhite;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .navbar a:hover{
+        color:lightblue;
+        align-items:end;
+    }
+    .navbar.container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .navbar ul{
+        display:flex;
+    }
+    .navbar ul li{
+        margin-left: 20px;
+
+    }
+    .header{
+        background-color: rgb(65, 10, 57);
+        color:grey;
+        min-height: 400px;
+    }
+    .header h1{
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .header img{
+        max-width: 400px;
+    }
+    .header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+   </style>
+    <body>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Flexbox</div>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="container">
+                <div>
+                    <h1>Flex Crash Course</h1>
+                    <p>
+                        This Crash Course was created by background
+                        Traversy to help you learn the
+                         basics of flexbox.Flexbox is a very 
+                         important and useful tool in CSS.
+                    </p>
+                </div>
+                <img src="C:\Users\91968\Desktop/grid.webp"
+            </div>
+        </header>
+        <section class=""boxes">
+        <div class="container">
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>
+                Alignment & Space</h2>
+                <p>
+                    A more efficient way to layout,align
+                    and distribute space among
+                    items in a container
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    </body>
+   </html>
+   
